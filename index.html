@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Luana Pizzeria</title>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Pizzaria Platzi. Sabores incomparaveis, Ingredientes de alta qualidade e Compromisso de entrega.">
+    <link href="style.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body id="home">
+    <header>
+        <!-- O menu da nav -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cardapio.html">Cardápio</a>
+            <a href="pedido.html" class="botao">Peça online</a>
+        </nav>
+    </header>
+
+    <!-- a parte da logomarca e texto inicial com o botão Peça Online -->
+    <section id="logo">
+        <img class="logomarca" src="img/logo.png" alt="logo" />
+        <p class="texto-abaixo-logo">Lorem ipsum dolor sit amet, consectetur adizicing elit.
+            Pellentesque ut blandit sapien, id molestie quam.
+            Mecenas eget velit nulla.
+            Aenean est sapien, vulputate non pulvinar, um ornare eu felis.</p>
+        <a href="pedido.html" class="botao-logo">Peça online</a>
+    </section>
+
+    <!-- os quadradinhos -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./IMG/imagens/ICON.svg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-white bg-dark">Sabor Incomparavel</h5>
+              <p class="text-white bg-dark">Lorem ipsum dolor sit amet, consectetur adizicing elit.
+                Pellentesque ut blandit sapien, id molestie quam.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./IMG/imagens/ICON-1.svg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-white bg-dark">Ingredientes de alta qualidade</h5>
+              <p class="text-white bg-dark">Lorem ipsum dolor sit amet, consectetur adizicing elit.
+                Pellentesque ut blandit sapien, id molestie quam.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./IMG/imagens/ICON-2.svg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-white bg-dark">Compromisso de entrega</h5>
+              <p class="text-white bg-dark">Lorem ipsum dolor sit amet, consectetur adizicing elit.
+                Pellentesque ut blandit sapien, id molestie quam.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!-- o depoimento do CEO e o possível carrossel -->
+
+    <section class="retangulo-depoimento">
+        <figure id="depoimento-texto">
+            <h1 class="nosso-compromisso">Nosso compromisso:</h1>
+            <p class="texto-depoimento">"Lorem ipsum dolor sit amet, consectetur adizicing elit.
+                Pellentesque ut blandit sapien, id molestie quam.
+                Mecenas eget velit nulla.
+                Aenean est sapien, vulputate non pulvinar, um ornare eu felis."</p>
+            <p class="nome-pessoa">FRANK HARDY</p>
+            <p class="profissao">CEO and Founder</p>
+            <img class="barra-depoimento" src="img/barra.png" alt="imagem">
+        </figure>
+
+        <figure id="depoimento-foto">
+            <img class="foto-depoimento" src="img/FOTO_DEPOIMENTO.jpg" />
+        </figure>
+    </section>
+
+
+    <!-- Platizi Pizzeria-->
+    <section id="logo-preta">
+        <img class="logomarca-preta" src="img/logo_preta.svg" />
+    </section>
+
+    <!-- O nosso rodapé-->
+    <footer>
+        <section id="footer-esquerda">
+            <a href=" ">Status</a>
+            <a href="politicas.html">Política de privacidade</a>
+            <a href="contato.html">Contate-nos</a>
+        </section>
+
+        <section id="footer-direita">
+            <img src="img/bandeira-brasil.svg" />
+            <a href="http://instagram.com" target="_blank"> <img class="icones-social" src="img/Instagram_1.svg" />
+            </a>
+            <a href="http://facebook.com" target="_blank"> <img class="icones-social" src="img/Facebook_1.svg" />
+            </a>
+            <a href="http://twitter.com" target="_blank"> <img class="icones-social" src="img/Twitter_1.svg" /> </a>
+        </section>
+    </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>
+
+
+
+<section id="diferencas">
+    <figure>
+        <img src="" alt="">
+        <h1 class="diferencias-titulo"></h1>
+        <p></p>
+        <a href="" class="saiba-mais"></a>
+    </figure>
+    <figure>
+        <img src="" alt="">
+        <h1 class="diferencias-titulo"></h1>
+        <p></p>
+        <a href="" class="saiba-mais"></a>
+    </figure>
+    <figure>
+        <img src="" alt="">
+        <h1 class="diferencias-titulo"></h1>
+        <p></p>
+        <a href="" class="saiba-mais"></a>
+    </figure>
+</section>
+
+
+
+
+
+<main>
+    <section class="imagens">
+        <img src="img/pilhas_moedas.png" alt="">
+        <img src="img/dinheiro_moedas.png" alt="">
+        <img src="img/notas_euro1.png" alt="">
+        <img src="img/notas_euro2.png" alt="">
+        <img src="img/pilha_euro.png" alt="">
+        <img src="img/saco_dinheiro.png" alt="">
+    </section>
